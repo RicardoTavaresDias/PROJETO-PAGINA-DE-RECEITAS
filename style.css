@@ -1,4 +1,9 @@
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Alice", serif;
   line-height: 150%; /*Espaçamento entre cada frase com a proxima linha*/
@@ -23,6 +28,19 @@ img {
   border-radius: 16px;
 }
 
+main {
+  padding: 24px;
+}
+
+section {
+  margin-top: 24px;
+}
+
+/*seloteros p + p quer dizer que dentro do ID about pega atributo p e mais ou p dar espaço de margin 12px*/
+#about p + p {
+  margin-top: 12px;
+}
+
 h1 {
   line-height: 140%; /*Espaçamento entre cada frase com a proxima linha*/
   font-size: 40px;
@@ -34,4 +52,10 @@ h2 {
 
 h1, h2 {
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%; /*Espaçamento entre cada frase com a proxima linha*/
+}
+
+ul {
+  padding-left: 24px; 
 }
