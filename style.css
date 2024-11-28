@@ -13,6 +13,7 @@
 body {
   background-image: url(assets/bg.jpg);
   background-size: cover; /*vai cobrir a imagem todo o bady*/
+  
 }
 
 #page {
@@ -21,7 +22,7 @@ body {
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
-  margin: 48px auto; /*48px em cima e em baixo e auto para laterais*/
+  margin: 48px auto 28px; /*48px em cima e em baixo e auto para laterais*/
 }
 
 img {
@@ -58,4 +59,15 @@ h1, h2 {
 
 ul {
   padding-left: 24px; 
+}
+
+footer {
+  color: #F0E8C2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  /* esse atributo vai alinhar o coração no meio entre as palavras */
+  vertical-align: middle; 
 }
