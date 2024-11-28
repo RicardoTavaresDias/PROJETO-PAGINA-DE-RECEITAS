@@ -14,6 +14,7 @@ body {
   background-image: url(assets/bg.jpg);
   background-size: cover; /*vai cobrir a imagem todo o bady*/
   
+  
 }
 
 #page {
@@ -23,6 +24,9 @@ body {
   background-color: #F0E8C2;
   border-radius: 24px;
   margin: 48px auto 28px; /*48px em cima e em baixo e auto para laterais*/
+
+  /* Adicionado sobra para o fundo ficar melhor no projeto devido não está com fundo escuro */
+  box-shadow: 2px 2px 20px #291b1aa6; ;
 }
 
 img {
@@ -62,7 +66,7 @@ ul {
 }
 
 footer {
-  color: #F0E8C2;
+  color: #291B1A;
   text-align: center;
   padding-bottom: 48px;
 }
