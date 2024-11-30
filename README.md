@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Logo - Rocketseat" src=".github/logo.png" width="200px" />
+</p>
+
 <h1 align="center"> Pagina de Receita </h1>
 
 <p align="center">
@@ -14,7 +18,7 @@ Programa exclusivo no curso Full-Stack, promovido pela Rocketseat para ensino de
 <br>
 
 <p align="center">
-  <img alt="Pagina de Receita" src="./github/preview.jpg" width="100%">
+  <img alt="Pagina de Receita" src=".github/preview.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
